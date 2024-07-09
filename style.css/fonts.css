@@ -1,0 +1,128 @@
+@font-face{
+    font-family: 'PT_Sans';
+    src: url(../font/PT_Sans/PTSans-Regular.ttf);
+    font-weight: 400;
+}
+@font-face{
+    font-family: 'PT_Sans';
+    src: url(../font/PT_Sans/PTSans-Italic.ttf);
+    font-weight: 400;
+}
+@font-face{
+    font-family: 'PT_Sans';
+    src: url(../font/PT_Sans/PTSans-Bold.ttf);
+    font-weight: 700;
+}
+@font-face{
+    font-family: 'Lato';
+    src: url(../font/Lato/Lato-Regular.ttf);
+    font-weight: 400;
+}
+@font-face{
+
+font-family: 'FA';
+src: url(../font/Webfonts/Webfonts/fa-regular-400.ttf);
+font-weight: 400;
+}
+@font-face {
+    font-family: 'FAB';
+    src: url(../font/Webfonts/Webfonts/fa-brands-400.ttf);
+}
+
+.header__search{
+
+font-family: 'FA';
+font-weight: 400;
+width: 16px;
+height: 17px;
+font-style: normal;
+color:#929EAF;
+}
+.fa-search::before{
+
+content: '\f002';
+
+}
+.header__search:hover{
+    color: #4A90E2;
+}
+
+
+
+.instagram{
+
+    font-family: 'FAB';
+    font-weight: 400;
+    color: white;
+    font-style: normal;
+
+}
+.instagram::before{
+
+    content: '\f16d';
+
+}
+
+.instagram:hover{
+color: orange;
+
+}
+
+
+.nextpage{
+
+gap: 5px;
+
+}
+.facebook{
+
+    font-family: 'FAB';
+    font-weight: 400;
+    color: white;
+    font-style: normal;
+
+}
+.facebook::before{
+
+    content: '\f39e';
+}
+
+.twitter{
+
+    font-family: 'FAB';
+    font-weight: 400;
+    color: white;
+    font-style: normal;
+
+}
+
+.twitter::before{
+
+    content: '\f099';
+}
+
+.pinterest{
+    font-family: 'FAB';
+    font-weight: 400;
+    color: white;
+    font-style: normal;
+}
+
+.pinterest::before{
+content: '\f231';
+}
+.pinterest:hover{
+
+color: blueviolet;
+
+}
+.google{
+    font-family: 'FAB';
+    font-weight: 400;
+    color: white;
+    font-style: normal;
+}
+
+.google::before{
+content: '\f0d5';
+}
